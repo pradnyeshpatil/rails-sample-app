@@ -37,7 +37,7 @@ Rails.application.configure do
     host = ENV['PRODUCTION_HOST']
   end
 
-  Rails.application.config.action_mailer.default_url_options = { host: host, protocol: 'https'}
+  Rails.application.config.action_mailer.default_url_options = { host: host}
   Rails.application.config.action_mailer.smtp_settings = {
     address: "smtp.gmail.com",
     port: 587,

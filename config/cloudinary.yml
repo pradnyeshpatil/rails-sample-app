@@ -1,0 +1,18 @@
+development:
+  cloud_name: shyamcloud
+  api_key: '396927141489474'
+  api_secret: LQBpJjZrkYka6GJibro0nXh8G6M
+  enhance_image_tag: true
+  static_file_support: false
+production:
+  cloud_name: shyamcloud
+  api_key: '396927141489474'
+  api_secret: LQBpJjZrkYka6GJibro0nXh8G6M
+  enhance_image_tag: true
+  static_file_support: true
+test:
+  cloud_name: shyamcloud
+  api_key: '396927141489474'
+  api_secret: LQBpJjZrkYka6GJibro0nXh8G6M
+  enhance_image_tag: true
+  static_file_support: false
